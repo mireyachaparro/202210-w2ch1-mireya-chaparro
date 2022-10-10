@@ -48,7 +48,7 @@ export const resta = () => {
 
 export const multiplicacion = () => {
     for (let i = 0; i < numeros.length; i++) {
-        multiplicacionResultado = multiplicacionResultado * numeros[i];
+        let multiplicacionResultado = multiplicacionResultado * numeros[i];
     }
     console.log('La multiplicacion es ' + multiplicacionResultado);
 };
@@ -101,7 +101,6 @@ export const calculadora = () => {
         calculadora();
     } else if (pregunta == 'n') {
         console.log('Has terminado.');
-        //nuevaOperacion();
     } else {
         console.log('Introduce una respuesta correcta.');
         nuevaOperacion();
