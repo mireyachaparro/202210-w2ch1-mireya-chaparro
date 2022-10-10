@@ -1,0 +1,101 @@
+/*ejercicio https://github.com/isdi-coders-env/pre-curso/blob/master/tema9-html-css-js/tema9-proyecto-calc-full.md */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Montserrat:wght@100;300&display=swap');
+
+body{
+    font-family: "franklin", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #F3F3F3;
+}
+
+.title{
+    font-weight: 100;
+    font-family: arial;
+    text-align: center;
+}
+
+.calc{
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    border: 2px solid #B7B7B7;
+    width: 316px;
+    padding-bottom: -5px;
+    border-radius: 10px;
+}
+
+.igual{
+    border-bottom-right-radius: 10px;
+}
+
+.cero{
+    border-bottom-left-radius: 10px;
+}
+
+.numeros{
+    margin-left: 3px;
+    margin-bottom: -2px;
+}
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 50;
+    width: 80px;
+    aspect-ratio: 1.2;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    margin: 0px -5px;
+    border: 2px solid #B7B7B7;
+}
+
+.cero{
+    width: 158px;
+    height: 67px;
+}
+
+.acc{
+    background-color: #CDCDCD;
+}
+
+.negativo{
+    background-color: #CDCDCD;
+}
+
+.borrar{
+    background-color: #CDCDCD;
+}
+
+.operador{
+    background-color: #F59331;
+}
+
+.button:hover,
+.button:focus{
+    border: 2px solid #665747;
+}
+
+.results{
+    margin-left: -3px;
+    background-color: #4C4C4C;
+    width: 318px;
+    height: 90px;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 50;
+    margin-left: -1px;
+    margin-top: -32.5px;
+    padding-right: -30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.text-input{
+    color: white;
+}
