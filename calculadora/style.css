@@ -2,46 +2,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Montserrat:wght@100;300&display=swap');
 
-body{
-    font-family: "franklin", sans-serif;
+body {
+    font-family: 'franklin', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
 }
 
-.title{
+.title {
     font-weight: 100;
-    font-family: arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma;
     text-align: center;
 }
 
-.calc{
+.calc {
     margin-top: 0px;
     margin-right: 0px;
     padding-top: 0px;
     padding-right: 0px;
-    border: 2px solid #B7B7B7;
+    border: 2px solid #b7b7b7;
     width: 316px;
     padding-bottom: -5px;
     border-radius: 10px;
 }
 
-.igual{
+.igual {
     border-bottom-right-radius: 10px;
 }
 
-.cero{
+.cero {
     border-bottom-left-radius: 10px;
 }
 
-.numeros{
+.numeros {
     margin-left: 3px;
     margin-bottom: -2px;
 }
 
-.button{
+.button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -49,41 +49,40 @@ body{
     font-weight: 50;
     width: 80px;
     aspect-ratio: 1.2;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     cursor: pointer;
     margin: 0px -5px;
-    border: 2px solid #B7B7B7;
+    border: 2px solid #b7b7b7;
 }
 
-.cero{
+.cero {
     width: 158px;
     height: 67px;
 }
 
-.acc{
-    background-color: #CDCDCD;
+.acc {
+    background-color: #cdcdcd;
 }
 
-.negativo{
-    background-color: #CDCDCD;
+.negativo {
+    background-color: #cdcdcd;
 }
 
-.borrar{
-    background-color: #CDCDCD;
+.borrar {
+    background-color: #cdcdcd;
 }
 
-.operador{
-    background-color: #F59331;
+.operador {
+    background-color: #f59331;
 }
 
 .button:hover,
-.button:focus{
+.button:focus {
     border: 2px solid #665747;
 }
 
-.results{
-    margin-left: -3px;
-    background-color: #4C4C4C;
+.results {
+    background-color: #4c4c4c;
     width: 318px;
     height: 90px;
     text-align: right;
@@ -96,6 +95,6 @@ body{
     border-top-left-radius: 10px;
 }
 
-.text-input{
+.text-input {
     color: white;
 }
