@@ -1,0 +1,23 @@
+{
+  "name": "202210-w2ch1-mireya-chaparro",
+  "version": "1.0.0",
+  "description": "week 2 challenge 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mireyachaparro/202210-w2ch1-mireya-chaparro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier":{
+    "singleQuote": true
+  },
+  "bugs": {
+    "url": "https://github.com/mireyachaparro/202210-w2ch1-mireya-chaparro/issues"
+  },
+  "homepage": "https://github.com/mireyachaparro/202210-w2ch1-mireya-chaparro#readme"
+}
