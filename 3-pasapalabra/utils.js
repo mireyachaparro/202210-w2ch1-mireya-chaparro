@@ -116,10 +116,10 @@ export const hacerPreguntas = () => {
 };
 
 export const checkIfCorrect = () => {
-    for (i = 0; i < respuestas.length; i++) {
+    for (let i = 0; i < respuestas.length; i++) {
         if (respuestas[i] == 'pasapalabra' || respuestas[i] == '') {
             alert(`${preguntas[i]}`);
-            respuesta = prompt('Respuesta');
+            let respuesta = prompt('Respuesta');
             respuestas[i] = respuesta;
         }
         if (validWords[i] === respuestas[i]) {
