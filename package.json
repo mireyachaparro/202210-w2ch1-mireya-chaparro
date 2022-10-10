@@ -13,11 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "prettier":{
+  "prettier": {
     "singleQuote": true
   },
   "bugs": {
     "url": "https://github.com/mireyachaparro/202210-w2ch1-mireya-chaparro/issues"
   },
-  "homepage": "https://github.com/mireyachaparro/202210-w2ch1-mireya-chaparro#readme"
+  "homepage": "https://github.com/mireyachaparro/202210-w2ch1-mireya-chaparro#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
